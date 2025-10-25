@@ -1,0 +1,56 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#">
+    <bib:Document rdf:about="https://ipman.is.tue.mpg.de/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_21"/>
+        <link:link rdf:resource="#item_22"/>
+        <link:link rdf:resource="#item_23"/>
+        <link:link rdf:resource="#item_24"/>
+        <dc:title>IPMAN</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ipman.is.tue.mpg.de/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-25 03:13:29</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_21">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/21/ipman.is.tue.mpg.de.html"/>
+        <dc:title>IPMAN</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ipman.is.tue.mpg.de/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-25 03:13:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_22">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/22/3D Human Pose Estimation via Intuitive Physics.md"/>
+        <dc:title>markdown</dc:title>
+        <link:type>text/plain</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_23">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/23/Notes_3D_Human_Pose_Estimation_via_Intuitive_Physics_CVPR_2023_paper.pdf"/>
+        <dc:title>Notes</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_24">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/24/Original_3D_Human_Pose_Estimation_via_Intuitive_Physics_CVPR_2023_paper.pdf"/>
+        <dc:title>Original</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
